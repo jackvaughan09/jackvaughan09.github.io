@@ -12,21 +12,6 @@
 	width: 500px;
 }
 
-.buscador-scraper{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	height: fit-content;
-}
-
-.buscador-scraper::after{
-	content : "";
-	display: table;
-	clear: both;
-}
 
 
 .columnbusctext{
