@@ -9,9 +9,8 @@
 
 .busc-gif{
 
-	width: 45%;
+	width: max-content;
 	position: right;
-	pad: 1;
 	border: 0;
 	vertical-align: auto;
 	font: inherit;
