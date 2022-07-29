@@ -12,10 +12,26 @@
 	width: 500px;
 }
 
-.column{
+
+
+.columnbusctext{
 	float: left;
-	width: 50%;
+	width: 40%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
+
+.columnbusc{
+
+	float: right;
+	width:60%
+	
+}
+
 
 .row::after{
 
