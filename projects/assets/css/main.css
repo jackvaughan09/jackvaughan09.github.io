@@ -10,7 +10,7 @@
 .busc-gif{
 
 	width: 45%;
-	align-items:flex-end;
+	position: right;
 	pad: 1;
 	border: 0;
 	vertical-align: auto;
