@@ -7,6 +7,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.busc-gif{
+
+	width: 45%;
+	align-items:flex-end;
+	pad: 1;
+	border: 0;
+	vertical-align: auto;
+	font: inherit;
+}
+
 .column{
 	float: left;
 	width: 50%;
