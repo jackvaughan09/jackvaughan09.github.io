@@ -10,7 +10,7 @@
 /* Custom classes */
 
 .caption{
-	position: center;
+	align-self: center;
 	font: inherit;
 	color: rgb(146, 137, 137);
 
