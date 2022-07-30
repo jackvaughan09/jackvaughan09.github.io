@@ -115,20 +115,34 @@
                                 <p>I joined the study as a research associate in January 2022, brought on by a professor at UT for 
                                     my experience with conducting field research. By the time I began working with 
                                     the DU team, they had already discovered two potential sources of data for the experiment, both 
-                                    of them Colombian national job databases for those seeking employment--think of this like a government-funded
-                                    LinkedIn. After obtaining appropriate login information from our Ex-combatant participants, we
-                                    began the process of building a dataset. 
-                                </p>
+                                    of them job databases for those seeking employment hosted by Colombia's Agencia Pública de Empleo 
+                                    — think of these like a government-funded LinkedIn and Indeed. After obtaining appropriate login 
+                                    information from our Ex-combatant participants, they began the process of building a dataset 
+                                    for one of these websites, <a href ="https://ape.sena.edu.co/spe-web/spe/cartelera">SENA</a>. 
+                                    However, trouble soon arose. 
 
-                                <p>
+                                </p>                                    
+                                
+
+                                <div class = "row" id = "busc_webscraper">
+                                    <h1>Webscraping</h1>
+                                    <a>a github link will be here</a>
                                     
-                                </p>
-
-                                <div class = "row">
+                                    <p>Our original web scraper became obsolete about a month into the project's pre-launch phase when 
+                                        we discovered internal restrictions on which jobs a particular candidate could apply to. Because our 
+                                        dataset turned on the <strong>outcome</strong> of a particular job application — either accepted or denied 
+                                        — we needed to be able to actually apply to the jobs we'd scrape from the site. Thus, I determined that 
+                                        a second scraper needed to be built to scrape our second site: 
+                                        <a href = “https://personas.serviciodeempleo.gov.co/login.aspx”>Buscador.</a>
+                                    </p>    
+                                    
                                     <div class="columnbusctext">
-                                    <p>here is some sample text. Now I am going to add to the sample text.
+                                        <p>Pictured here is the scraper in action. Using the appropriate login information, the 
+                                        scraper logs into the Buscador site and scrapes a list of jobs that the candidate pre-qualifies 
+                                        for based on their profile conditions. These conditions include former employment and education,
+                                        location, work preferences, and others. 
 
-                                    </p>
+                                        </p>
 
 
                                     </div> 
@@ -138,6 +152,11 @@
                                             <p><sub><i>Webscraper sped up for concision</i></sub></p>      
                                         </div>
 
+                                    </div>
+
+                                    <div>
+
+                                        
                                     </div>
                                 </div>
                                     
