@@ -1,203 +1,242 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>CEE Project</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="single is-preload">
+  <head>
+    <title>CEE Project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="single is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="../index.html">Jack Vaughan Portfolio</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="#">Projects</a></li>
+            <li><a href="https://medium.com/@jackvaughan09">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <ul>
+            <li class="search">
+              <a class="fa-search" href="#search">Search</a>
+              <form id="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+              </form>
+            </li>
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-		<!-- Wrapper -->
-        <div id="wrapper">
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Search -->
+        <section>
+          <form class="search" method="get" action="#">
+            <input type="text" name="query" placeholder="Search" />
+          </form>
+        </section>
 
-            <!-- Header -->
-                <header id="header">
-                    <h1><a href="../index.html">Jack Vaughan Portfolio</a></h1>
-                    <nav class="links">
-                        <ul>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="https://medium.com/@jackvaughan09">Blog</a></li>
-                            <li><a href="../about.html">About</a></li>
-                            <li><a href="../contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="main">
-                        <ul>
-                            <li class="search">
-                                <a class="fa-search" href="#search">Search</a>
-                                <form id="search" method="get" action="#">
-                                    <input type="text" name="query" placeholder="Search" />
-                                </form>
-                            </li>
-                            <li class="menu">
-                                <a class="fa-bars" href="#menu">Menu</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li>
+              <a href="projects.html">
+                <h3>Project Viewer</h3>
+                <p>Browse my past work</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://medium.com/@jackvaughan09">
+                <h3>Blog</h3>
+                <p>Read my thoughts</p>
+              </a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <h3>About me</h3>
+                <p>Get to know about me</p>
+              </a>
+            </li>
+            <li>
+              <a href="../contact.html">
+                <h3>Contact</h3>
+                <p>Let's get in touch!</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </section>
 
-            <!-- Menu -->
-                <section id="menu">
+      <div id="main">
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2>Colombia Ex-Combatant Project: Case Study</h2>
+              <p>Using Python tools to improve policy research</p>
+            </div>
+            <div class="meta">
+              <time class="published" datetime="2022-07-18"
+                >July 18th, 2022</time
+              >
+              <a href="../about.html" class="author"
+                ><span class="name">Jack Vaughan</span
+                ><img src="images/headshot.jpg" alt=""
+              /></a>
+            </div>
+          </header>
+          <a
+            href="https://unmas.org/en/combatants-to-deminers-reintegration-of-former-farc-ep-members-through-mine-action-colombia"
+            class="image featured"
+            ><img
+              src="images/excomcoverphoto.jpg"
+              alt="former farc members participating in a reintegration program"
+          /></a>
+          <h2>Overview:</h2>
+          <p>
+            Dr. Olver Kaplan, associate professor of International Studies at
+            University of Denver's Korbel School, is on a mission to illuminate
+            the root causes of human rights issues around the globe. He worries
+            that efforts to reintegrate <strong>ex-combatants</strong>,
+            <u
+              >those who have been part of armed rebellion against the
+              government</u
+            >, are falling short. Access to legal employment is a key factor in
+            determining whether these individuals will effectively reintegrate
+            into society or turn back to violent forms of protest. In an effort
+            to improve the
+            <a
+              href="https://journals.sagepub.com/doi/abs/10.1177/0022002716644326"
+              ><strong>reintegration process in Colombia</strong></a
+            >, Dr. Kaplan organized a study on hiring bias against
+            ex-combatants. Though quantifying bias can prove to be difficult,
+            Dr. Kaplan believes we can shed tremendous light on the extent of
+            this issue, given that we can find the right data. <br /><br />
 
-                    <!-- Search -->
-                        <section>
-                            <form class="search" method="get" action="#">
-                                <input type="text" name="query" placeholder="Search" />
-                            </form>
-                        </section>
+            I joined the study as a research associate in January 2022, brought
+            on by a professor at UT for my experience with conducting field
+            research. By the time I began working with the DU team, they had
+            already discovered two potential sources of data for the experiment,
+            both of them job databases for those seeking employment hosted by
+            Colombia's Agencia Pública de Empleo — think of these like a
+            government-funded LinkedIn and Indeed. After obtaining appropriate
+            login information from our Ex-combatant participants, they began the
+            process of building a dataset for one of these websites,
+            <a href="https://ape.sena.edu.co/spe-web/spe/cartelera">SENA</a>.
+            However, trouble soon arose. <br /><br />
+          </p>
 
-                    <!-- Links -->
-                        <section>
-                            <ul class="links">
-                                <li>
-                                    <a href="projects.html">
-                                        <h3>Project Viewer</h3>
-                                        <p>Browse my past work</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://medium.com/@jackvaughan09">
-                                        <h3>Blog</h3>
-                                        <p>Read my thoughts</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../about.html">
-                                        <h3>About me</h3>
-                                        <p>Get to know about me</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../contact.html">
-                                        <h3>Contact</h3>
-                                        <p>Let's get in touch!</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </section>
-                </section>
+          <div class="row" id="busc_webscraper">
+            <h1>Webscraping</h1>
+            <a>a github link will be here</a>
 
-                <div id="main">
+            <p>
+              Our original web scraper became obsolete about a month into the
+              project's pre-launch phase when we discovered internal
+              restrictions on which jobs a particular candidate could apply to.
+              Because our dataset turned on the <strong>outcome</strong> of a
+              particular job application — either accepted or denied — we needed
+              to be able to actually apply to the jobs we'd scrape from the
+              site. Thus, I determined that a second scraper needed to be built
+              to scrape our second site: <a href =
+              “https://personas.serviciodeempleo.gov.co/login.aspx”>Buscador.
+              <br /><br />
+            </p>
 
-                    <!-- Post -->
-                        <article class="post">
-                            <header>
-                                <div class="title">
-                                    <h2>Colombia Ex-Combatant Project: Case Study</h2>
-                                    <p>Using Python tools to improve policy research</p>
-                                </div>
-                                <div class="meta">
-                                    <time class="published" datetime="2022-07-18">July 18th, 2022</time>
-                                    <a href="../about.html" class="author"><span class="name">Jack Vaughan</span><img src="images/headshot.jpg" alt="" /></a>
-                                </div>
-                            </header>
-                            <a href="https://unmas.org/en/combatants-to-deminers-reintegration-of-former-farc-ep-members-through-mine-action-colombia" class="image featured"><img src="images/excomcoverphoto.jpg" 
-                                alt="former farc members participating in a reintegration program" /></a>
-                            <h2>Overview:</h2>
-                                <p>Dr. Olver Kaplan, associate professor of International Studies at University of Denver's Korbel School, 
-                                is on a mission to illuminate the root causes of human rights issues around the globe. 
-                                He worries that efforts to reintegrate <strong>ex-combatants</strong>, 
-                                <u>those who have been part of armed rebellion against the government</u>, are falling short. 
-                                Access to legal employment is a key factor in determining whether these individuals will effectively 
-                                reintegrate into society or turn back to violent forms of protest. In an effort to improve the 
-                                <a href="https://journals.sagepub.com/doi/abs/10.1177/0022002716644326" ><strong>reintegration process in Colombia</strong></a>, 
-                                Dr. Kaplan organized a study on hiring bias against ex-combatants. Though quantifying bias can prove to be difficult, 
-                                Dr. Kaplan believes we can shed tremendous light on the extent of this issue, given that we can find the right data. 
-                                </p>
-                            
-                            
-                                <p>I joined the study as a research associate in January 2022, brought on by a professor at UT for 
-                                    my experience with conducting field research. By the time I began working with 
-                                    the DU team, they had already discovered two potential sources of data for the experiment, both 
-                                    of them job databases for those seeking employment hosted by Colombia's Agencia Pública de Empleo 
-                                    — think of these like a government-funded LinkedIn and Indeed. After obtaining appropriate login 
-                                    information from our Ex-combatant participants, they began the process of building a dataset 
-                                    for one of these websites, <a href ="https://ape.sena.edu.co/spe-web/spe/cartelera">SENA</a>. 
-                                    However, trouble soon arose. 
+            <div class="columnbusctext">
+              <p>
+                Pictured here is the scraper in action. Using the appropriate
+                login information, the scraper logs into the Buscador site and
+                scrapes a list of jobs that the candidate pre-qualifies for
+                based on their profile conditions. These conditions include
+                former employment and education, location, work preferences, and
+                others.
+              </p>
+            </div>
+            <div class="columnbusc">
+              <img src="./images/New Project.gif" class="busc-gif" />
+              <div class="caption">
+                <p>
+                  <sub><i>Webscraper sped up for concision</i></sub>
+                </p>
+              </div>
+            </div>
 
-                                </p>                                    
-                                
+            <div></div>
+          </div>
 
-                                <div class = "row" id = "busc_webscraper">
-                                    <h1>Webscraping</h1>
-                                    <a>a github link will be here</a>
-                                    
-                                    <p>Our original web scraper became obsolete about a month into the project's pre-launch phase when 
-                                        we discovered internal restrictions on which jobs a particular candidate could apply to. Because our 
-                                        dataset turned on the <strong>outcome</strong> of a particular job application — either accepted or denied 
-                                        — we needed to be able to actually apply to the jobs we'd scrape from the site. Thus, I determined that 
-                                        a second scraper needed to be built to scrape our second site: 
-                                        <a href = “https://personas.serviciodeempleo.gov.co/login.aspx”>Buscador.</a>
-                                    </p>    
-                                    
-                                    <div class="columnbusctext">
-                                        <p>Pictured here is the scraper in action. Using the appropriate login information, the 
-                                        scraper logs into the Buscador site and scrapes a list of jobs that the candidate pre-qualifies 
-                                        for based on their profile conditions. These conditions include former employment and education,
-                                        location, work preferences, and others. 
+          <footer>
+            <ul class="stats">
+              <li>
+                <a
+                  href="https://journals.sagepub.com/doi/abs/10.1177/0022002716644326"
+                  >Study Page on Oliver's Website</a
+                >
+              </li>
+              <li><a href="#" class="icon solid fa-heart">0</a></li>
+              <li><a href="#" class="icon solid fa-comment">0</a></li>
+            </ul>
+          </footer>
+        </article>
 
-                                        </p>
+        <!-- Footer -->
+        <section id="footer">
+          <ul class="icons">
+            <li>
+              <a href="#" class="icon brands fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon solid fa-rss"
+                ><span class="label">RSS</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon solid fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+          <p class="copyright">
+            &copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.
+            Images: <a href="http://unsplash.com">Unsplash</a>.
+          </p>
+        </section>
+      </div>
 
-
-                                    </div> 
-                                    <div class="columnbusc">
-                                        <img src="./images/New Project.gif" class="busc-gif">
-                                        <div class="caption">
-                                            <p><sub><i>Webscraper sped up for concision</i></sub></p>      
-                                        </div>
-
-                                    </div>
-
-                                    <div>
-
-
-                                    </div>
-                                </div>
-                                    
-                                </p>
-
-
-
-                                </div>
-                            
-                            
-                            <footer>
-
-                                <ul class="stats">
-                                    <li><a href="https://journals.sagepub.com/doi/abs/10.1177/0022002716644326">Study Page on Oliver's Website</a></li>
-                                    <li><a href="#" class="icon solid fa-heart">0</a></li>
-                                    <li><a href="#" class="icon solid fa-comment">0</a></li>
-                                </ul>
-                            </footer>
-                        </article>
-                    
-
-				<!-- Footer -->
-					<section id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+    </div>
+  </body>
 </html>
